@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "nodemon -x yarn serve",
+    "serve": "node --inspect index"
+  },
+  "dependencies": {
+    "mongoose": "^7.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "nodemon": "^3.0.1"
+  }
+}
